@@ -60,12 +60,12 @@ def main():
         name                 = 'veusz_plugins',
         version              = get_version('veusz_plugins/__init__.py'),
         description          = 'A collection of miscellaneous plugins for the veusz graphing application',
-        long_description     = description('README.txt'),
+        long_description     = description('README.rst'),
         author               = 'Dave Hughes',
         author_email         = 'dave@waveform.org.uk',
         url                  = 'https://github.com/waveform80/veusz_plugins',
         packages             = find_packages(exclude=['distribute_setup', 'utils']),
-        install_requires     = ['xlrd']
+        install_requires     = ['xlrd'],
         platforms            = 'ALL',
         zip_safe             = False,
         classifiers          = classifiers
