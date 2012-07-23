@@ -21,6 +21,23 @@ dependencies are:
  * `xlrd <http://pypi.python.org/pypi/xlrd>`_ - required for Excel import
 
 
+Installation
+============
+
+After installing the package, start Veusz and select Preferences from the Edit
+menu. Select the Plugins tab at the far right of the dialog that appears. Click
+on the Add... button and navigate to the directory that the plugins were
+installed into. On Linux this will be something one of the following:
+
+  /usr/lib/python2.7/dist-packages/veusz_plugins/
+  /usr/local/lib/python2.7/dist-packages/veusz_plugins/
+
+Select the xls_plugin.py module in this directory and click on Open. Once back
+at the preferences dialog, do the same for sqlite_plugin.py. Finally, click on
+OK then exit and restart Veusz. The plugins will only be available after such a
+restart.
+
+
 Excel import
 ============
 
